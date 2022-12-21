@@ -44,7 +44,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Buenas prácticas de manufactura en instalaciones para el procesamiento de panela Buenas prácticas de manufactura para equipos de trefilado de panelas',
+              'Buenas prácticas de manufactura para equipos de trefilado de panela',
             hash: 't_1_1',
           },
           {
