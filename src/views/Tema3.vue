@@ -19,7 +19,9 @@
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="flip-up")
         .cajon.color-secundario.p-4(style="background-color: rgba(226, 135, 44, .15)")
-          p.mb-0 La panela en bloques se puede empacar en bolsas, cajas de cartón y film retráctil. La más recomendable es el cartón, ya que cumple su función de proteger el producto, de la humedad y se puede reutilizar. Si se utilizan bolsas se recomienda el polipropileno biorientado.
+          p.mb-0 La panela en bloques se puede empacar en bolsas, cajas de cartón y 
+            em film 
+            |retráctil. La más recomendable es el cartón, ya que cumple su función de proteger el producto, de la humedad y se puede reutilizar. Si se utilizan bolsas se recomienda el polipropileno biorientado.
 
     p.mb-5(data-aos="fade-right") A continuación, se detallan los requisitos de empaque para la distribución nacional y exportación de la panela:
 
@@ -186,7 +188,6 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3-11.svg', alt='Caja')
           .col-lg-8.col-sm-8
-            h4 Asepsia y empaques
             p La asepsia y el empaque son muy importantes, porque si la planta no está en buenas condiciones asépticas y si la calidad del empaque es mala, el producto se contaminará y el consumidor lo rechazará.
       .tarjeta.cftaba.p-4(titulo="Fluctuación de precios")
         .row.justify-content-center.align-items-center
@@ -194,7 +195,6 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3-12.svg', alt='Precio')
           .col-lg-8.col-sm-8
-            h4 Fluctuación de precios
             p Además, la panela es considerada un producto de la canasta familiar, por lo que cuando se utiliza correctamente, es un producto con el que muchas industrias y pequeñas y medianas empresas compiten en el mercado. Pero el mayor problema al que se enfrenta la comercialización de panela en la actualidad son las grandes fluctuaciones de precios que crean incertidumbre para los fabricantes.
       .tarjeta.cftaba.p-4(titulo="Utilización de azúcar en la fabricación")
         .row.justify-content-center.align-items-center
@@ -210,7 +210,6 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3-14.svg', alt='Lista de chequeo')
           .col-lg-8.col-sm-8
-            h4 Deficiencias
             p Las restricciones de calidad de la panela limitaban la expansión del mercado interno y el acceso a los mercados internacionales; y los sistemas de empaque, envío y almacenamiento de la panela tenían fallas, lo que resultó en pérdidas significativas del producto debido a daños. La mayoría de los productos expuestos no cuentan con una etiqueta que pueda indicar el origen del producto, sus componentes y especialmente, el fabricante.
 
     .row.justify-content-center.mb-5
