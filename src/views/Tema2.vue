@@ -52,10 +52,11 @@
             figure
               img(src="@/assets/curso/temas/tema2/img2-11.png", alt="Panelas")
 
-    Separador
-
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1  Condiciones de ambiente de envase
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Condiciones de ambiente de envase
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-sm-4(data-aos="fade-right")
@@ -70,10 +71,13 @@
         .cajon.color-acento-contenido.p-4(style="background-color: rgba(129, 175, 29, .15)")
           p.mb-0 Por lo tanto, es importante preservar la calidad de las tablas de madera y encontrar las condiciones de embalaje y almacenamiento que permitan mayor duración.
 
-    Separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2  Contenido de humedad de equilibrio de panela (CHEp)
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Contenido de humedad de equilibrio de panela (CHEp)
+
     
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -81,8 +85,8 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p.mb-0 Uno de los mayores obstáculos en el transporte de la panela es la falta de información sobre las condiciones ambientales durante el transporte, marítimo o terrestre, y el almacenamiento en los puertos; esto conduce al deterioro del producto debido a la actividad biológica y la combinación de sustancias, que se produce en los tiempos de recorrido, debido, entre otras razones, por la reacción de la humedad del ambiente.
-
+                p.mb-0 Uno de los mayores obstáculos en el transporte de la panela, es la falta de información sobre las condiciones ambientales durante el transporte, sea marítimo o terrestre, y el almacenamiento en los puertos; esto conduce al deterioro del producto, debido a la actividad biológica y a la combinación de sustancias, que se produce en los tiempos de recorrido, ocasionado, entre otras razones, por la reacción de la humedad del ambiente.
+                
     p.mb-5 A continuación, se presentan algunos elementos que afectan el contenido de humedad de la panela:
 
     .row.justify-content-center.mb-5

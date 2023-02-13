@@ -32,22 +32,32 @@
             figure
               img(src="@/assets/curso/temas/tema3/img3-2.png", alt="Panela empacada")
           .col-md-6
-            p El embalaje de la panela depende del destino final; uno es el mercado nacional como tiendas y supermercados, el otro es el mercado exterior. En el primer caso, en lugar de embalar las panelas en bolsas de papel, se almacenan hasta alcanzar un peso de unos 36 kg, después de lo cual, se aseguran con cuerdas para que las panelas no se suelten. Este tipo de presentación se llama panela en paca.
-            p La principal desventaja de este sistema de almacenamiento, es que la panela se destruye fácilmente por impacto o lluvia.
+            h4 Empaque para la distribución a nivel nacional
+            p El embalaje de la panela, depende del destino final; uno, es el mercado nacional como tiendas y supermercados, y el otro es el mercado en el exterior. En el primer caso, en lugar de embalar las panelas en bolsas de papel, se almacenan hasta alcanzar un peso de unos 36 kg, después de lo cual, se aseguran con cuerdas para que el producto no se suelte. Este tipo de presentación, se llama panela en paca.
+
+            p La principal desventaja de este sistema de almacenamiento, es que la panela se destruye fácilmente por impacto o lluvia. 
+
       .py-4.py-md-5(titulo="Empaque y embalaje de la panela para exportar")
         .row.justify-content-center
           .col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/temas/tema3/img3-3.png", alt="Panela empacada para exportar")
           .col-md-6
+            h4 Empaque y embalaje de la panela para exportar
+
             p La panela de exportación tiene más trabajo en cuanto a la parte de empacado. La panela es dispuesta en bolsas de poliolefina de forma individual, posteriormente son selladas por acción de la máquina de sellado, una vez herméticas las bolsas, estas son introducidas al túnel de termoencogido donde por acción del calor el empaque se contrae o mejor, adhiere y toma la forma del producto que contiene, en este caso, la panela. (Restrepo, 2013, p. 26).
-            p Luego de este proceso, la panela que queda rotulada con papel adhesivo con el nombre de la panela y todo lo relacionado con la envoltura, (registro invima, nombre de quien distribuye, lugar de origen, composición química del producto, fecha de vencimiento, teléfono y lugar de la planta para pedidos, entre otras características que se ve en cualquier empaque de producto), (Restrepo, 2013, p. 26). Finalmente, una vez la panela es empacada y termo encogida es embalada en las cajas de cartón corrugado, las cuales tienen capacidad de almacenamiento de 32 kg panelas redondas de 500 g y 35 kg panelas redondas de 125 g, empacados de a 4 unidades hasta completar 500 gramos. (Restrepo, 2013, p. 26).
-            p.mb-0 Una vez en las cajas quedan expuestas a la humedad y el material de las cajas no puede mantenerlos intactos porque los paquetes no tienen una buena división y separación celular y están sujetos a una fricción que debilita la película de poliolefina que los cubre.
 
-    Separador
+            p Luego de este proceso, la panela que queda rotulada con papel adhesivo, con el nombre del producto y todo lo relacionado con la envoltura: registro Invima, nombre de quien distribuye, lugar de origen, composición química, fecha de vencimiento, teléfono y lugar de la planta para pedidos, entre otras características que se ve en cualquier empaque de producto. (Restrepo, 2013, p. 26) 
+            
+            p Finalmente, una vez la panela es empacada, termoencogida y embalada en cajas de cartón corrugado, las cuales tienen capacidad de almacenamiento de 32 kg de panelas redondas de 500 g y 35 kg; panelas redondas de 125 g, empaque por 4 unidades hasta completar 500 gramos. (Restrepo, 2013, p. 26)
 
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1  Principales materiales utilizados en el proceso de producción panelera
+            p Una vez en las cajas, quedan expuestas a la humedad, pues el material de estas no puede mantenerlas intactas porque los paquetes no tienen una buena división y separación celular y están sujetos a una fricción que debilita la película de poliolefina que los cubre. 
+
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Principales materiales utilizados en el proceso de producción panelera
 
     p.mb-5(data-aos="fade-left") El video que se presenta a continuación, ilustra los principales materiales utilizados en el proceso de la panela y el tipo de empaque empleado, por lo tanto, lo invitamos a observar con atención:
 
@@ -55,10 +65,12 @@
       .video(data-aos="zoom-in")
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    Separador
 
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.2  Almacenamiento
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Almacenamiento y manejo del producto
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.mb-sm-4(data-aos="fade-right")
@@ -70,10 +82,6 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8.col-sm-8
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 3.
-          br
-          em Almacenamiento de la panela
 
         ImagenInfografica.color-primario(data-aos="zoom-in")
           template(v-slot:imagen)
@@ -84,22 +92,23 @@
           .tarjeta.cftpc1.p-3(x="9%" y="34%" numero="")
             p El almacenamiento debe realizarse en condiciones apropiadas de temperatura, humedad y circulación de aire.
           .tarjeta.cftpc1.p-3(x="9%" y="59%" numero="")
-            p Debe llevarse un control de primeras entradas y salidas con el fin de garantizar la rotación de los productos. A veces, las empresas necesitan deshacerse de productos y equipos obsoletos e inutilizables para ayudar a limpiar los equipos y eliminar la posible contaminación.
+            p Debe llevarse un control de primeras entradas y salidas con el fin de garantizar la rotación de los productos. A veces, las empresas necesitan deshacerse de productos y equipos obsoletos e inutilizables para ayudar a limpiar los nuevos y así eliminar la posible contaminación.
           .tarjeta.cftpc1.p-3(x="20%" y="84%" numero="")
             p Los materiales y productos terminados se almacenan de manera que se minimicen los daños y se protejan contra condiciones que puedan afectar su limpieza, función e integridad. Además, deben estar claramente identificados para comprender su origen, calidad y vida útil.
           .tarjeta.cftpc2.p-3(x="76%" y="8%" numero="")
-            p El almacenamiento de materias primas o productos terminados debe organizarse en cajas o tarimas a una distancia mínima de 60 cm de las paredes y sobre tarimas o tarimas a 15 cm del suelo, de manera que se pueda realizar la inspección, limpieza y fumigación en la medida de lo posible. No utilice tarimas sucias o dañadas.
+            p El almacenamiento de materias primas o productos terminados, debe organizarse en cajas o tarimas a una distancia mínima de 60 cm de las paredes y sobre tarimas a 15 cm del suelo, de manera que se pueda realizar la inspección, limpieza y fumigación en la medida de lo posible. No utilice aquellas que estén sucias o dañadas.
           .tarjeta.cftpc2.p-3(x="88%" y="34%" numero="")
-            p En los lugares o áreas destinadas al almacenamiento de productos, materiales y productos terminados, no se podrá realizar ningún otro trabajo, salvo el mencionado.
+            p En los lugares o áreas destinadas al almacenamiento de materiales y productos terminados, no se podrá realizar ningún otro trabajo, salvo el mencionado.
           .tarjeta.cftpc2.p-3(x="88%" y="59%" numero="")
             p Los alimentos devueltos a la empresa por caducidad deberán conservarse en una habitación o despensa únicamente para este fin; dicho depósito deberá estar claramente identificado, y se llevará un libro de caja en el que se hará constar la fecha y el importe de las mercancías devueltas, la parte enviada y el destino. Estos registros serán trasladados a la autoridad sanitaria competente.
           .tarjeta.cftpc2.p-3(x="76%" y="84%" numero="")
             p Los pesticidas, detergentes, desinfectantes y otros materiales peligrosos que se encuentren en el área por la necesidad de su uso deben estar etiquetados con información sobre el tóxico y cómo usarlo. Estos productos deben ser almacenados en áreas designadas o en estantes y manipulados únicamente por personal calificado para evitar la contaminación de otros productos.
 
-    Separador
-
-    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.3  Factores que influyen en el deterioro de la panela
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Factores que influyen en el deterioro de la panela
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -110,10 +119,11 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Los factores que afectan la absorción de humedad y el deterioro del tablero están relacionados con su estructura y entorno. Es muy peligroso si es demasiado bajo en azúcar, bajo en sacarosa y alto en humedad.
 
-    Separador
-
-    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.4  Manifestaciones del deterioro de la panela
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Manifestaciones del deterioro de la panela
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2(data-aos="fade-right")
@@ -125,10 +135,6 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-sm-9
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 4.
-          br
-          em Mantenimiento del deterioro de la panela
 
         ImagenInfografica.color-primario
           template(v-slot:imagen)
@@ -141,10 +147,11 @@
           .tarjeta.cftpc1.p-3(x="86%" y="77%" numero="")
             p Sobre la superficie se presenta invasión de hongos, levaduras y bacterias.
 
-    Separador
-
-    #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.5  Normas para el empaque y embalaje de la panela en Colombia
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Normas para el empaque y embalaje de la panela en Colombia
 
     p(data-aos="fade-left") El 28 de septiembre de 2011 fue el último día para que la industria panelera colombiana comenzará a cumplir con los requisitos establecidos en el Decreto 779, del 17 de marzo de 2006, así como la información contenida en el Decreto 4121, del 16 de septiembre de 2011, emitido por el Departamento de Seguridad Social.
     p.mb-5(data-aos="fade-right") A continuación, se presentan algunas de las precisiones que deben ser contempladas para el empaque y embalaje de la panela en Colombia.
@@ -157,7 +164,7 @@
               p Durante el proceso documentado de fabricación y comercialización, las panelas deben cumplir con los estándares de empaque y embalaje relacionados con avalar la calidad y seguridad de las etiquetas con la garantía de calidad e inocuidad que deben brindar los materiales primarios, secundarios y de las etiquetas de la panela en bloque.
           .row.justify-content-center(titulo="Tipo de empaque")
             .col-md-10.mb-4.mb-md-0
-              p Además, las panelas deberán colocarse en contenedores individuales o en bloques, donde el cumplimiento, almacenamiento y difusión de estos requisitos se hará a nivel central y por los agentes involucrados en la cadena productiva; Se realizaron trabajos en varios departamentos durante varios meses.
+              p Además, las panelas deberán colocarse en contenedores individuales o en bloques, donde el cumplimiento, almacenamiento y difusión de estos requisitos se hará a nivel central y por los agentes involucrados en la cadena productiva. Esto se determinó posterior a un trabajo realizado por varios meses, en diferentes departamentos de la Nación.
           .row.justify-content-center(titulo="Lo que dice el INVIMA")
             .col-md-10.mb-4.mb-md-0
               p Teniendo en cuanto al tamaño de las empresas productoras de panela en el país, muchas de las cuales son pequeñas y no cuentan con la equipamiento para actuar estas normas de inmediato, la subdirectora de alimentos y bebidas alcohólicas del INVIMA precisó en una carta dirigida al administrador general de Fedepanela que “aquellos trapiches productores de panela que de entente al ejemplar de fabricación tengan la inteligencia técnica, económica y transporte para representar el énfasis unipersonal de la panela en sus propias instalaciones deberán realizarlo directamente, en mano aquellos que por diversas referencias especialmente por el ejemplar de fabricación no puedan hacerlo, podrán destinar sus apartado a un academia de depósito para su procesamiento, énfasis, rotulado y comercialización”.
@@ -168,10 +175,12 @@
         figure
           img(src='@/assets/curso/temas/tema3/img3-9.png', alt='Embalaje')
 
-    Separador
 
-    #t_3_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.6  Comercialización de la panela
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Comercialización de la panela
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.mb-sm-4
@@ -195,7 +204,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img3-12.svg', alt='Precio')
           .col-lg-8.col-sm-8
-            p Además, la panela es considerada un producto de la canasta familiar, por lo que cuando se utiliza correctamente, es un producto con el que muchas industrias y pequeñas y medianas empresas compiten en el mercado. Pero el mayor problema al que se enfrenta la comercialización de panela en la actualidad son las grandes fluctuaciones de precios que crean incertidumbre para los fabricantes.
+            p Además, la panela es considerada un producto de la canasta familiar, por lo que cuando se utiliza correctamente, posibilita que muchas industrias y pequeñas y medianas empresas compitan en el mercado. Pero el mayor problema al que se enfrenta la comercialización de la panela en la actualidad, son las grandes fluctuaciones de precios que crean incertidumbre para los fabricantes.
       .tarjeta.cftaba.p-4(titulo="Utilización de azúcar en la fabricación")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-sm-3
@@ -215,9 +224,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
         .cajon.color-acento-botones.p-4(style="background-color: rgba(80, 0, 199, .15)")
-          p.mb-0 
-            b ¡Excelente! 
-            |Ha completado este componente de capacitación donde aprendió sobre la calidad del producto final. Ahora lo invitamos a estudiar la síntesis, para recordar los conocimientos aprendidos en general, realizar actividades de aprendizaje, comprobar los conocimientos adquiridos, familiarizarse con materiales adicionales que le servirán como material de fortalecimiento y profundización, y aprender vocabulario.
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
 

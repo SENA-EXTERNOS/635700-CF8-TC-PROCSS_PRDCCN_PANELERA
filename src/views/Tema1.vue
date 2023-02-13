@@ -6,17 +6,29 @@
       .titulo-principal__numero
         span.cst 1
       h1 Verificación del producto terminado
-      
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1  Buenas prácticas de manufactura para equipos de trefilado de panelas
+
+    .row.mt-5
+      p La calidad de un producto o servicio, está relacionada con la percepción del cliente sobre su valor. Si un cliente considera que un bien le ayuda a resolver sus necesidades, lo considerará de mayor o menor calidad en función de la manera en que percibe una serie de factores asociados a ese producto. En el caso de la panela, esta verificación se encuentra relacionada con las diferentes fases del proceso de producción, en donde como veremos, pueden presentarse inconvenientes desde el insumo, la manufactura e inclusive el almacenamiento, que lleven a presentar al consumidor un elemento incluso nocivo para la salud.
+
+      p A continuación, se explican algunos indicadores a tener presente en la manufactura, venta y distribución de la panela.
+
+
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Buenas prácticas de manufactura para equipos de trefilado de panelas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p La panela, está sujeta a controles de calidad y seguridad adecuados para su manipulación, embalaje, almacenamiento, distribución, comercialización y venta. El sistema de gestión de calidad y seguridad debe prevenir los defectos y reducir las fallas naturales o inevitables hasta el punto en que no pongan en riesgo la salud de los consumidores.
-        p.mb-0 Las normas de higiene y las normas generales de calidad que se deben mantener en el proceso de producción panelero, están relacionadas con cada operación, diagramadas en la figura 1 y en el diagrama de flujo de la figura 2.
+
       .col-lg-4.order-sm-first.order-lg-last.mb-sm-4
         figure
           img(src='@/assets/curso/temas/tema1/img1-1.png', alt='Panelas')
+
+    .row.mt-5
+      p Las normas de higiene y las normas generales de calidad que se deben mantener en el proceso de producción panelero, están relacionadas con cada operación, diagramadas en la figura 1 y en el diagrama de flujo de la figura 2.
 
     .tarjeta.slider-img1-2.p-4(data-aos="zoom-in")
       SlyderA(tipo='b')
@@ -25,10 +37,7 @@
             h4 Secuencia de operaciones para la obtención de la panela
             p Todo proceso comienza con la recepción de las materias primas; las cuales, deben ser seleccionadas de acuerdo a su pureza e idoneidad para la posterior producción o procesamiento de alimentos.
           .col-md-7
-            .titulo-sexto.color-acento-contenido.mb-5(data-aos='fade-right')
-              h5 Figura 1.
-              br
-              em Secuencia de operaciones para la obtención de panela granulada
+            h5.text-center Secuencia de operaciones para la obtención de panela granulada
             figure
               img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Secuencia para obtener panela granulada').mb-3
               figcaption Nota: Reproducido de Diseño del plan y documentación para la implementación de las BPM en la elaboración de la panela granulada en la planta INGAPI. Quizanga, V. (2009).
@@ -37,18 +46,17 @@
             h4 Proceso de fabricación de panelas en Colombia
             p Se denomina apronte a la serie de operaciones de corte, alce y transporte de la caña al ingenio y almacenamiento antes de que comience la molienda.
           .col-md-7
-            .titulo-sexto.color-acento-contenido.mb-5(data-aos='fade-right')
-              h5 Figura 2.
-              br
-              em Proceso de fabricación de panela en Colombia
+            h4.text-center Proceso de fabricación de panela en Colombia
             figure
               img(src='@/assets/curso/temas/tema1/img1-4.svg', alt='Proceso de fabricación de panela en Colombia').mb-3
               figcaption Nota: Reproducido de Buenas prácticas agrícolas y buenas prácticas de manufactura en la producción de caña y panela. Osorio, G. (2007)
 
-    Separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2  Condiciones generales de la panela
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Condiciones generales de la panela
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.mb-sm-4(data-aos="fade-right")
@@ -84,10 +92,12 @@
           h4.text-center Elaboración
           p.text-center En una instalación autorizada que cumpla con los requisitos de producción higiénica.
       
-    Separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3  Requisitos físico-químicos de la panela
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Requisitos físico-químicos de la panela
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="flip-up")
@@ -100,7 +110,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5(data-aos='fade-right')
-          h5 Tabla 1.
+          h5 Tabla 1
           br
           em Requisitos físico-químicos de la panela
         .tabla-a.color-secundario(data-aos="zoom-in")
@@ -148,10 +158,12 @@
                 td Colorantes
                 td.text-center(colspan='2') NEGATIVO
                 
-    Separador
 
-    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.4  Aditivos permitidos en la elaboración de panela
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Aditivos permitidos en la elaboración de panela
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")
@@ -184,10 +196,11 @@
               h4.text-center Clarificantes
               p Balso, poliacrilamidas, cadillo y guácimo.
 
-    Separador
-
-    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.5 Requisitos para la producción de panela a partir de mieles vírgenes en las centrales de acopio y procesamiento
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Requisitos para la producción de panela a partir de mieles vírgenes en las centrales de acopio y procesamiento
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.col-sm-2(data-aos="fade-right")
@@ -208,13 +221,16 @@
           p.text-small(numero="3" titulo="Centrales de acopio") Los centros de acopio de miel deben garantizar la inocuidad de la miel utilizada para la producción de panelas.
           p.text-small(numero="4" titulo="Sustancias e insumos") Sustancias y materias primas no permitidas en la producción de panelas: ditionito de sodio u otros químicos tóxicos con propiedades blanqueadoras, colorantes o sustancias tóxicas, grasas saturadas, azúcar, miel de ingenios azucareros, melaza, maíz, otros edulcorantes y las panelas devueltas, tienen un impacto en la seguridad y la calidad de la panela.
 
-    Separador
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Condiciones sanitarias de los trapiches
 
-    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.6 Condiciones sanitarias de los trapiches
 
     p(data-aos="fade-left") De acuerdo a la resolución 779 de 2006, los ingenios azucareros deben seguir altos estándares de higiene y tecnología en sus operaciones.
-    p.mb-5(data-aos="fade-right") De acuerdo con la resolución 779 de 2006, estas normas de higiene son las siguientes:
+
+    p.mb-5(data-aos="fade-right") Y debe cumplir con las siguientes normas de higiene:
 
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Instalaciones físicas")
@@ -308,9 +324,12 @@
             p Los operarios, que manipulan alimentos, deben someterse a un reconocimiento médico antes de desempeñar esta función.  Asimismo, se deben realizar exámenes médicos si es necesario por razones de salud y epidemiológicas; especialmente, después de la ausencia del trabajo debido a una infección que pueda contaminar los alimentos procesados. Se deben tomar las medidas apropiadas para garantizar que los trabajadores del área de alimentos se   realicen exámenes médicos al menos una vez al año.
             p.mb-0 Los administradores del ingenio azucarero deben tomar las medidas necesarias para garantizar que ninguna persona conocida o sospechosa de tener una enfermedad transmitida por alimentos, directa o indirectamente, contamine los insumos o el producto final o tengan síntomas de alguna enfermedad o tenga presencia de llagas, erupciones cutáneas o tenga diarrea. Todo manipulador de alimentos que suponga tal riesgo, debe comunicarlo a la dirección de la empresa.
 
-    h3(data-aos="fade-right")
-      i.fas.fa-leaf.cs.me-3
-      |Educación y capacitación
+
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-feather
+            h3 Educación y capacitación
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.col-sm-2(data-aos="fade-right")
@@ -318,8 +337,8 @@
           img(src='@/assets/curso/temas/tema1/img1-21.svg' alt='Mazo de juez')
       .col-lg-10.col-sm-10(data-aos="fade-left")
         p De acuerdo con la resolución 779 de 2006, todas las personas que tengan que manipular alimentos deben recibir educación sanitaria, especialmente en el método de uso de alimentos limpios.  De igual manera, deben estar capacitados para realizar las tareas de higiene que se les asignan y evitar el deterioro de los alimentos.
-        p.mb-0 La educación y la formación en el procesamiento de alimentos involucra a muchas labores; Éstas son algunos de ellas:
-
+        p.mb-0 La educación y la formación en el procesamiento de alimentos, involucra varias labores; estas son algunas de ellas:
+        
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="zoom-in")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris1")

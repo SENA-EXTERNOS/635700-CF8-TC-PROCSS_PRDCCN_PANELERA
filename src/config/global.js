@@ -39,40 +39,6 @@ export default {
         numero: '1',
         titulo: 'Verificación del producto terminado',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo:
-              'Buenas prácticas de manufactura para equipos de trefilado de panela',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Requisitos fisicoquímicos de la panela',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Aditivos permitidos en la elaboración de panela',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo:
-              'Requisitos para la producción de panela a partir de mieles vírgenes en las centrales de acopio y procesamiento',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Condiciones sanitarias de los trapiches',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
@@ -81,20 +47,6 @@ export default {
         numero: '2',
         titulo: 'Moldeo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Condiciones de ambiente de envase',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Contenido de humedad de equilibrio de panela (CHEp)',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -102,46 +54,6 @@ export default {
         numero: '3',
         titulo: 'Empaque y almacenamiento',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Principales materiales utilizados en el proceso de producción panelera',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Almacenamiento',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Factores que influyen en el deterioro de la panela',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Manifestaciones del deterioro de la panela',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo:
-              'Normas para el empaque y embalaje de la panela en Colombia',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Comercialización de la panela',
-            hash: 't_3_6',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -186,32 +98,27 @@ export default {
   },
   complementario: [
     {
-      tema: 'Producto final',
+      tema: 'Verificación del producto terminado',
       referencia:
-        'Sánchez, S., Carrera, J. & Castillo, H. (2007). Variables que afectan la calidad de la panela procesada en el departamento del Cauca. <em>Biotecnología en el Sector Agropecuario y Agroindustrial: BSAA</em>, 5(1), 17-27.',
+        'Guerrero, M. & Escobar, J. (2015). Eficiencia técnica de la producción de panela. <em>Revista de Tecnología, 14</em>(1), p. 107-116.',
       tipo: 'Artículo',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6117629',
+      link:
+        'https://revistas.unbosque.edu.co/index.php/RevTec/article/view/1853',
     },
     {
-      tema: 'Producción de panela',
-      referencia:
-        'Guerrero, M., & Escobar, J. (2015). Eficiencia técnica de la producción de panela. <em>Revista de Tecnología, 14</em>(1), 107-116.',
-      tipo: 'Artículo',
-      link: 'https://revistas.unbosque.edu.co/RevTec/article/view/1853',
-    },
-    {
-      tema: 'Buenas prácticas',
+      tema: 'Verificación del producto terminado',
       referencia:
         'Saldarriaga, P. (2021). <em>Elaboración de una guía de buenas prácticas de manufactura (BPM) para la producción de panela en la asociación de productores agropecuarios del Municipio de Inza y TierraDentro (Proagromit).</em>',
-      tipo: 'Artículo',
-      link: 'http://repositorio.uan.edu.co/handle/123456789/2641',
+      tipo: 'Proyecto de grado- pregrado',
+      link:
+        'http://repositorio.uan.edu.co/bitstream/123456789/2641/1/2020_PaolaAndreaSaldarriegaPe%C3%B1a',
     },
     {
-      tema: 'Elaboración de la panela',
+      tema: 'Verificación del producto terminado',
       referencia:
-        'TvAgro. (12 de marzo de 2019). <em>Cuál es el Proceso de Elaboración de la Panela</em> [Video]. Youtube. - <em>TvAgro por Juan Gonzalo Angel.</em>',
+        'TvAgro. (2019). <em>Cuál es el Proceso de Elaboración de la Panela</em>. [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=hgUj0tKM8OA',
+      link: 'https://www.youtube.com/watch?v=hgUj0tKM8OA  ',
     },
   ],
   glosario: [
@@ -290,7 +197,7 @@ export default {
     },
     {
       referencia:
-        'Osorio, G. (2007). <em>Buenas prácticas agrícolas (BPA) y buenas prácticas de manufactura (BPM) en la producción de caña y panela.</em> CORPOICA.',
+        'Osorio, G. (2007). <em>Buenas prácticas agrícolas (BPA) y buenas prácticas de manufactura (BPM) en la producción de caña y panela</em>. CORPOICA.',
       link:
         'https://repository.agrosavia.co/bitstream/handle/20.500.12324/18313/43120_50541.pdf?sequence=1&isAllowed=y',
     },
@@ -312,7 +219,7 @@ export default {
     },
     {
       referencia:
-        'Rodríguez, L., Alarcón, Y. & Vergara, R. (2018). Estudio de caracterización de la actividad productiva del sector de la caña panelera en la hoya del río Suárez. NOVUM, <em>Revista de Ciencias Sociales Aplicadas, 1(8), 32-48</em>.',
+        'Rodríguez, L., Alarcón, Y. & Vergara, R. (2018). Estudio de caracterización de la actividad productiva del sector de la caña panelera en la hoya del río Suárez. NOVUM, <em>Revista de Ciencias Sociales Aplicadas, 1</em>(8), p.32-48.',
       link: 'https://repositorio.unal.edu.co/handle/unal/66964',
     },
     {

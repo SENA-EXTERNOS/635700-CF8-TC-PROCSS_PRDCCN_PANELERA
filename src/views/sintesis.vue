@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 A continuación, se encuentra el organizador gráfico que lo ayudará a recordar y aplicar lo aprendido en este recurso de aprendizaje.
-
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
+    z
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
