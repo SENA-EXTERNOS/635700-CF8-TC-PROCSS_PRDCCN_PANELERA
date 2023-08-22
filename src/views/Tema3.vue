@@ -190,22 +190,22 @@
         p El negocio de las panelas no es nuevo para ser evaluado por las autoridades, vendedores y usuarios finales, ya que todos quieren un producto que cumpla con los más altos estándares.
         p.mb-0 A continuación, se presentan algunos elementos que son considerados al momento de la comercialización de la panela:
 
-    TabsA.color-acento-contenido.mb-5
-      .tarjeta.cftaba.p-4(titulo="Asepsia y empaques")
+    TabsC.color-acento-contenido.mb-5
+      .tarjeta.cftaba.p-4.mb-3(titulo="Asepsia y empaques")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-sm-3
             figure
               img(src='@/assets/curso/temas/tema3/img3-11.svg', alt='Caja')
           .col-lg-8.col-sm-8
             p La asepsia y el empaque son muy importantes, porque si la planta no está en buenas condiciones asépticas y si la calidad del empaque es mala, el producto se contaminará y el consumidor lo rechazará.
-      .tarjeta.cftaba.p-4(titulo="Fluctuación de precios")
+      .tarjeta.cftaba.p-4.mb-3(titulo="Fluctuación de precios")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-sm-3
             figure
               img(src='@/assets/curso/temas/tema3/img3-12.svg', alt='Precio')
           .col-lg-8.col-sm-8
             p Además, la panela es considerada un producto de la canasta familiar, por lo que cuando se utiliza correctamente, posibilita que muchas industrias y pequeñas y medianas empresas compitan en el mercado. Pero el mayor problema al que se enfrenta la comercialización de la panela en la actualidad, son las grandes fluctuaciones de precios que crean incertidumbre para los fabricantes.
-      .tarjeta.cftaba.p-4(titulo="Utilización de azúcar en la fabricación")
+      .tarjeta.cftaba.p-4.mb-3(titulo="Utilización de azúcar en la fabricación")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-sm-3
             figure
@@ -213,7 +213,7 @@
           .col-lg-8.col-sm-8
             h4 Utilización de azúcar en la fabricación
             p La existencia de largas cadenas de suministro en muchos niveles conduce a precios al consumidor más altos. El uso de azúcar en la producción de panelas conduce a una adición excesiva y reduce los costos. Además, constituye un engaño al consumidor.
-      .tarjeta.cftaba.p-4(titulo="Deficiencias")
+      .tarjeta.cftaba.p-4.mb-3(titulo="Deficiencias")
         .row.justify-content-center.align-items-center
           .col-lg-2.col-sm-3
             figure

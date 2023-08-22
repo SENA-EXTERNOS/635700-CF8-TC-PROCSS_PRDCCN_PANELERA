@@ -215,7 +215,7 @@ export default {
       referencia:
         'Restrepo, M. (2013). <em>Empaque para comercialización de la panela redonda tipo exportación hacia los Estados Unidos</em> [Proyecto de grado]. Universidad Católica de Pereira.',
       link:
-        'https://repositorio.ucp.edu.co/bitstream/10785/1696/2/CDMDI336.pdf',
+        'https://repositorio.ucp.edu.co/bitstream/10785/1696/2/DDMDI530.pdf',
     },
     {
       referencia:

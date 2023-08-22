@@ -216,10 +216,10 @@
           img(src='@/assets/curso/temas/tema1/img1-15.png' alt='Moldes de panela')
       .col-lg-7
          LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Centrales de acopio") Las instalaciones de recolección y procesamiento de miel deben tener un permiso de las autoridades sanitarias locales.
-          p.text-small(numero="2" titulo="Miel") La miel de mejor calidad proviene de ingenios azucareros aprobados por las autoridades sanitarias locales.
-          p.text-small(numero="3" titulo="Centrales de acopio") Los centros de acopio de miel deben garantizar la inocuidad de la miel utilizada para la producción de panelas.
-          p.text-small(numero="4" titulo="Sustancias e insumos") Sustancias y materias primas no permitidas en la producción de panelas: ditionito de sodio u otros químicos tóxicos con propiedades blanqueadoras, colorantes o sustancias tóxicas, grasas saturadas, azúcar, miel de ingenios azucareros, melaza, maíz, otros edulcorantes y las panelas devueltas, tienen un impacto en la seguridad y la calidad de la panela.
+          p(numero="1" titulo="Centrales de acopio") Las instalaciones de recolección y procesamiento de miel deben tener un permiso de las autoridades sanitarias locales.
+          p(numero="2" titulo="Miel") La miel de mejor calidad proviene de ingenios azucareros aprobados por las autoridades sanitarias locales.
+          p(numero="3" titulo="Centrales de acopio") Los centros de acopio de miel deben garantizar la inocuidad de la miel utilizada para la producción de panelas.
+          p(numero="4" titulo="Sustancias e insumos") Sustancias y materias primas no permitidas en la producción de panelas: ditionito de sodio u otros químicos tóxicos con propiedades blanqueadoras, colorantes o sustancias tóxicas, grasas saturadas, azúcar, miel de ingenios azucareros, melaza, maíz, otros edulcorantes y las panelas devueltas, tienen un impacto en la seguridad y la calidad de la panela.
 
     .row.mt-5
       ul.lista-ul--color.lista-ul--separador
@@ -366,7 +366,7 @@
     p.mb-5(data-aos="fade-right") Estas condiciones sanitarias son:
 
     .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -380,7 +380,7 @@
               li
                 i.fas.fa-circle.fa-xs.me-3
                 |Debe estar equipado con tanques de agua o fregaderos cubiertos que puedan satisfacer las necesidades de producción, de al menos un día, prevenir la contaminación, limpiar y desinfectar regularmente.
-      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-right")
           .crd_hover_txt--img
             figure
