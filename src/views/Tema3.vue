@@ -77,7 +77,7 @@
         figure
           img(src="@/assets/curso/temas/tema3/img3-4.svg", alt="Panela almacenada")
       .col-lg-10(data-aos="fade-left")
-        p La panela como todo alimento, debe almacenarse en las condiciones adecuadas para conservar su alimento, protegerlo de hongos y ratas, y entregarlo al cliente final de acuerdo con los estándares de calidad que imponen las normas que rigen la producción.
+        p La panela como todo alimento, debe almacenarse en las condiciones adecuadas para conservarlo, protegerlo de hongos y ratas, y entregarlo al cliente final de acuerdo con los estándares de calidad que imponen las normas que rigen la producción.
         p.mb-0 El almacenamiento de las panelas debe cumplir las siguientes condiciones:
 
     .row.justify-content-center.mb-5
@@ -117,8 +117,7 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img3-6.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los factores que afectan la absorción de humedad y el deterioro del tablero están relacionados con su estructura y entorno. Es muy peligroso si es demasiado bajo en azúcar, bajo en sacarosa y alto en humedad.
-
+            p.mb-0 El deterioro de la panela, es influenciado por múltiples factores. En primer lugar, la humedad se erige como su principal enemigo, pues provoca su pegajosidad y favorece la aparición de moho. El calor excesivo, por otro lado, puede hacerla derretirse. La luz solar directa, al ser otro factor, altera su textura y sabor. Además, la contaminación cruzada con olores fuertes puede impregnar con sabores no deseados, mientras que la falta de higiene propicia la contaminación microbiológica. Por último, un almacenamiento prolongado y sin un envase adecuado la vuelve quebradiza. La calidad de la caña de azúcar utilizada también es un factor crucial. Para preservar la panela, es esencial guardarla en un lugar fresco y seco, en envases herméticos, y mantener prácticas de manipulación higiénicas.
     .row.mt-5
       ul.lista-ul--color.lista-ul--separador
           li 
@@ -164,13 +163,22 @@
               p Durante el proceso documentado de fabricación y comercialización, las panelas deben cumplir con los estándares de empaque y embalaje relacionados con avalar la calidad y seguridad de las etiquetas con la garantía de calidad e inocuidad que deben brindar los materiales primarios, secundarios y de las etiquetas de la panela en bloque.
           .row.justify-content-center(titulo="Tipo de empaque")
             .col-md-10.mb-4.mb-md-0
-              p Además, las panelas deberán colocarse en contenedores individuales o en bloques, donde el cumplimiento, almacenamiento y difusión de estos requisitos se hará a nivel central y por los agentes involucrados en la cadena productiva. Esto se determinó posterior a un trabajo realizado por varios meses, en diferentes departamentos de la Nación.
+              p Además, las panelas deberán colocarse en contenedores individuales o en bloques, donde el cumplimiento, almacenamiento y difusión de estos requisitos se hará a nivel central y por los agentes involucrados en la cadena productiva. Esto se determinó posterior a un trabajo realizado por varios meses, en diferentes departamentos de la nación.
           .row.justify-content-center(titulo="Lo que dice el INVIMA")
             .col-md-10.mb-4.mb-md-0
-              p Teniendo en cuanto al tamaño de las empresas productoras de panela en el país, muchas de las cuales son pequeñas y no cuentan con la equipamiento para actuar estas normas de inmediato, la subdirectora de alimentos y bebidas alcohólicas del INVIMA precisó en una carta dirigida al administrador general de Fedepanela que “aquellos trapiches productores de panela que de entente al ejemplar de fabricación tengan la inteligencia técnica, económica y transporte para representar el énfasis unipersonal de la panela en sus propias instalaciones deberán realizarlo directamente, en mano aquellos que por diversas referencias especialmente por el ejemplar de fabricación no puedan hacerlo, podrán destinar sus apartado a un academia de depósito para su procesamiento, énfasis, rotulado y comercialización”.
+              p Según la resolución 779 de 2006, los productos derivados de la caña de azúcar, como la panela, deben estar debidamente empacados y etiquetados. Esto implica proporcionar información precisa sobre la ubicación del trapiche panelero, incluyendo dirección actualizada, departamento y municipio, además de indicaciones adicionales. La resolución 5109 de 2005 exige la declaración del fabricante, permitiendo términos como "Trapiche", "elaborado por", "fabricado por", o similares, para referirse al lugar de producción que sea un trapiche. El énfasis está en la necesidad de informar con exactitud dónde se elabora la panela, incluyendo departamento, municipio y cualquier detalle necesario para ubicar el establecimiento.
           .row.justify-content-center(titulo="Empaque y rotulado")
             .col-md-10.mb-4.mb-md-0
-              p Con la explicación anterior, es claro que la panela no puede ser decomisada por la policía, ya que no fue ensamblado individualmente durante el transporte del producto a las áreas de recolección y empaque. En cuanto al etiquetado, el INVIMA especifica que las etiquetas deben contener información legible e indeleble.
+              ul.lista-ul
+                li 
+                  i.fas.fa-circle.ulx
+                  | La panela elaborada exclusivamente a partir de jugo concentrado de caña molida, sin la adición de otros ingredientes, y solo con coadyuvantes para su producción, no necesita tener una tabla nutricional ni etiquetado frontal de advertencia, según lo especifica la Resolución 810 de 2021, modificado por la Resolución 2492 de 2022, que se aplica a productos de un solo ingrediente sin aditivos adicionales.
+                li 
+                  i.fas.fa-circle.ulx
+                  | Si la panela se saboriza con aditivos de sabor (naturales, idénticos a los naturales o artificiales), debe tener una tabla nutricional. Sin embargo, si los azúcares provienen únicamente de la caña y no se añaden azúcares adicionales, no se requiere etiquetado frontal de advertencia, conforme a la Resolución 810 de 2021, modificada por la Resolución 2492 de 2022.
+
+
+     
       .col-lg-4.order-sm-first.order-lg-last.mb-sm-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema3/img3-9.png', alt='Embalaje')

@@ -37,7 +37,9 @@
             h4 Secuencia de operaciones para la obtención de la panela
             p Todo proceso comienza con la recepción de las materias primas; las cuales, deben ser seleccionadas de acuerdo a su pureza e idoneidad para la posterior producción o procesamiento de alimentos.
           .col-md-7
-            h5.text-center Secuencia de operaciones para la obtención de panela granulada
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 1           
+              p.mb-0 Secuencia de operaciones para la obtención de panela granulada
             figure
               img(src='@/assets/curso/temas/tema1/img1-3.svg', alt='Secuencia para obtener panela granulada').mb-3
               figcaption Nota: Reproducido de Diseño del plan y documentación para la implementación de las BPM en la elaboración de la panela granulada en la planta INGAPI. Quizanga, V. (2009).
@@ -46,7 +48,9 @@
             h4 Proceso de fabricación de panelas en Colombia
             p Se denomina apronte a la serie de operaciones de corte, alce y transporte de la caña al ingenio y almacenamiento antes de que comience la molienda.
           .col-md-7
-            h4.text-center Proceso de fabricación de panela en Colombia
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 2           
+              p.mb-0 Proceso de fabricación de panela en Colombia
             figure
               img(src='@/assets/curso/temas/tema1/img1-4.svg', alt='Proceso de fabricación de panela en Colombia').mb-3
               figcaption Nota: Reproducido de Buenas prácticas agrícolas y buenas prácticas de manufactura en la producción de caña y panela. Osorio, G. (2007)
@@ -207,7 +211,6 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1-14.svg' alt='Mazo de juez')
       .col-lg-10.col-sm-10(data-aos="fade-left")
-        p Para la refinación de la panela, es el primer ingenio azucarero aprobado para su uso como producto de miel prensada, si cumple con los requisitos establecidos y establecidos por la Resolución 779 de 2006.
         p.mb-0 Para preparar una panela, a partir de miel cruda, se deben cumplir los siguientes requisitos:
 
     .row.justify-content-center.align-items-center.mb-5
