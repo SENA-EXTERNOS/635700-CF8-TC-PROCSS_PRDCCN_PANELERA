@@ -220,7 +220,7 @@ export default {
     {
       referencia:
         'Rodríguez, L., Alarcón, Y. & Vergara, R. (2018). Estudio de caracterización de la actividad productiva del sector de la caña panelera en la hoya del río Suárez. NOVUM, <em>Revista de Ciencias Sociales Aplicadas, 1</em>(8), p.32-48.',
-      link: 'https://repositorio.unal.edu.co/handle/unal/66964',
+      link: 'https://www.redalyc.org/journal/5713/571360729002/html/',
     },
     {
       referencia:
